@@ -12,35 +12,63 @@
     background-color: rgb(3, 20, 20);
     background-size: 50;
 }
-
-.texte1,.texte2,.texte3{
+body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.texte1,.texte2,.texte3{
+   
     background-color: whitesmoke;
     border: 2px solid darkslategray;
     padding: 50px;
     text-align: center;
 }
-
-section{
+.texte4{
+    margin: 10;
+    font-size: 25px;
+}
+.presentation{
+    margin: 10;
     background-color: rgb(165, 202, 232);
-    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.couleurs{
+    margin: 10;
+    background-color:rgb(225, 219, 135);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 900px) {
-    .texte1, .texte2, .texte3{
+    *{
+        font-size:75%;
+    }
+    .texte1, .texte2, .texte3, .texte4{
         font-size:24px;
     }
-    section{
-        display:flex;
+    .presentation{
+        display: flex;
         flex-flow: column;
-        background-color: rgb(165, 202, 232);
+        justify-content: space-between;
+        
+    }
+    .couleurs{
+        margin: 10;
+        background-color:rgb(225, 219, 135);
+        height:50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    h6{
+        font-size:1
     }
     img{
         width: 50%;
-        align-content: center;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
     }
 }

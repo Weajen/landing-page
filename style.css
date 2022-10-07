@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 100px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(3, 20, 20);
+    background-size: 50;
+}
+
+.texte1,.texte2{
+    font-family: 'Gemunu Libre', sans-serif;
+    background-color: whitesmoke;
+    border: 2px solid darkslategray;
+    padding: 50px;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(165, 202, 232);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+    .texte1, .texte2{
+        font-size:24px;
+    }
+    section{
+        display:flex;
+        flex-flow: column;
+    }
+    img{
+        width: 50%;
+        align-content: center;
+        justify-content: space-around;
+    }
+}

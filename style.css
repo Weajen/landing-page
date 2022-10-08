@@ -9,7 +9,7 @@ header{
     font-size: 75px;
     color: aliceblue;
     text-align: center;
-    background-color: rgb(3, 20, 20);
+    background-color: rgb(20, 3, 15);
     background-size: 50;
 }
 body{
@@ -35,11 +35,11 @@ body{
 }
 
 .couleurs{
-    margin: 10;
+    padding:50px;
     background-color:rgb(173, 235, 183);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .appli{
@@ -48,6 +48,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+a{
+    font-weight: bold;
+    color: black;
 }
 
 @media screen and (max-width: 900px) {

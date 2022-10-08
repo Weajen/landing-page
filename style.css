@@ -39,7 +39,7 @@ body{
     background-color:rgb(173, 235, 183);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: sp;
 }
 
 .appli{
@@ -69,7 +69,7 @@ a{
         
     }
     .couleurs{
-        height:50vh;
+        flex-direction:column;
         display: flex;
         align-items: center;
         justify-content: space-around;

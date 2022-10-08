@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.header{
+header{
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 100px;
+    font-size: 75px;
     color: aliceblue;
     text-align: center;
     background-color: rgb(3, 20, 20);
@@ -15,14 +15,14 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.texte1,.texte2,.texte3{
-   
+.texte_presentation{
     background-color: whitesmoke;
     border: 2px solid darkslategray;
     padding: 50px;
     text-align: center;
 }
-.texte4{
+.texte_couleurs,.texte_appli{
+    padding: 50px;
     margin: 10;
     font-size: 25px;
 }
@@ -36,17 +36,25 @@ body{
 
 .couleurs{
     margin: 10;
-    background-color:rgb(225, 219, 135);
+    background-color:rgb(173, 235, 183);
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.appli{
+    padding:50px;
+    background-color:rgb(225, 219, 135);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 900px) {
     *{
         font-size:75%;
     }
-    .texte1, .texte2, .texte3, .texte4{
+    .texte_presentation,.texte_appli,.texte_couleurs{
         font-size:24px;
     }
     .presentation{
@@ -56,18 +64,16 @@ body{
         
     }
     .couleurs{
-        margin: 10;
-        background-color:rgb(225, 219, 135);
         height:50vh;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     h6{
-        font-size:1
+        font-size:10px;
     }
     img{
-        width: 50%;
+        width:50%;
         align-items: center;
         justify-content: center;
     }
